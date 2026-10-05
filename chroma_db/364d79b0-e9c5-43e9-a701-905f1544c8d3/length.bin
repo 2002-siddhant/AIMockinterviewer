@@ -1,0 +1,12 @@
+    - True: Force all values of X to be finite.
+        - False: accepts np.inf, np.nan, pd.NA in X.
+        - 'allow-nan': accepts only np.nan or pd.NA values in X. Values cannot
+          be infinite.
+
+        .. versionadded:: 1.6
+           `force_all_finite` was renamed to `ensure_all_finite`.
+
+    ensure_2d : bool, default=True
+        Whether to raise a value error if X is not 2D.
+
+    allo
